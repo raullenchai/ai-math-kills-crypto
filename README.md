@@ -28,6 +28,12 @@ A publication check on October 8 found that the live catalogue now contains 719 
 
 Attack implications are conditional on the stated mathematical theorems and the specified cryptographic instances. Original mathematical proofs were not verified. The English source-statement and arithmetic analysis underwent three rounds of Claude Opus 5.5 review, with displayed arithmetic separately recomputed. Model agreement is not a correctness certificate. Subsequent conditional cascade analysis should not be read as a demonstrated attack.
 
+Those three historical rounds covered two earlier standalone English reports. The combined executive/cascade analysis, this README and the PNG figures were added later. A separate repository audit found three publication blockers concerning review scope and the wording of #109 and #107; the corrections and follow-up review are documented in [REVIEW.md](REVIEW.md).
+
+### Candidate selection
+
+Selection was exploratory research triage based on factoring, derandomization, linear algebra, curve arithmetic and quantum algorithms. It was not a systematic screening of every family, and the eight selected families are not a ranking of demonstrated threats. #029 was included as a stated proof dependency of #142. #029's own proof and the manuscripts it cites, including *The Quasi-Riemann Hypothesis*, were not audited. Other relevant families or attack mechanisms may have been missed.
+
 ## Files
 
 | File | Contents |
